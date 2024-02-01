@@ -1,10 +1,8 @@
-import Clock from './component/Clock'
+import ClockList from "./component/ClockList";
 function App() {
-  console.log("app renderd")
-
-  return (
-    <Clock locale='bn-BD' count='0' />
-  )
+  const quantitys = [1, 2, 3]
+  return <ClockList quantities={quantitys} ></ClockList>
 }
 
-export default App
+
+export default App;
