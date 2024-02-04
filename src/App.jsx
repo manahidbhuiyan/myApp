@@ -1,8 +1,7 @@
-import ClockList from "./component/ClockList";
+import Form from "./component/Form";
+
 function App() {
-  const quantitys = [1, 2, 3]
-  return <ClockList quantities={quantitys} ></ClockList>
+  return <Form ></Form>
 }
 
-
-export default App;
+export default App
