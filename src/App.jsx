@@ -1,7 +1,7 @@
-import Form from "./component/Form";
+import Calculator from "./component/Calculator";
 
 function App() {
-  return <Form ></Form>
+  return <Calculator />;
 }
 
-export default App
+export default App;
