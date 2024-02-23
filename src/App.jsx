@@ -1,7 +1,12 @@
-import Calculator from "./component/Calculator";
-
+import Todo from './component/Todo'
+import Counter from './component/Counter'
 function App() {
-  return <Calculator />;
+  return (
+    <>
+    <Todo /> <br />
+    <Counter />
+    </>
+  );
 }
 
 export default App;
