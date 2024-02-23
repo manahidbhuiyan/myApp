@@ -1,10 +1,8 @@
-import Todo from './component/Todo'
-import Counter from './component/Counter'
+import MyComponent from "./component/MyComponent";
 function App() {
   return (
     <>
-    <Todo /> <br />
-    <Counter />
+    <MyComponent />
     </>
   );
 }
